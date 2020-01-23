@@ -1,0 +1,36 @@
+.pikto {margin: 0px 270px;box-sizing: border-box;}
+.map { text-align: center}
+.parent { border: 2px solid #adcff7; width:auto; background-color:#c7e1ff}
+.buttons { margin: 0 auto; }
+.btn {font-size: 14px;padding: 6px 12px;margin-bottom: 0;display: inline-block;text-decoration: none;text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 1px solid transparent;}
+.btn-success {color: #fff;background-color: #28a745;border-color: #28a745;}
+.btn-danger {color: #fff;background-color: #dc3545;border-color: #dc3545;}
+.btn-primary {color: #fff;background-color: #007bff;border-color: #007bff;}
+.thingy2{width:50%;float:right;margin-top: 1em;margin-left: 1em;margin-right:1em;margin-bottom: 1em;}
+figure {margin: 0}
+figure img {box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);}
+.disabled{fill: #FFFFFF;}
+.enabled{cursor: pointer}
+.enabled:hover{fill: #808080;}
+.tooltip h6{font-family: 'Merriweather', serif;font-size: 1rem;margin-top: 0em;}
+.tooltip h4{font-size: 1.5rem;margin-right: 0px;color: #21669e;padding-left: 0px;}
+.tooltip{position: absolute;font-size: 1px;text-align: center;background: white;padding: 10px 15px;z-index: 5;line-height: 1rem;color: #21669e;border-radius: 5px;box-shadow: 0 0 0 1px #eee +transform(translateX(-50%));display: none}
+.tooltip.active{display: block;margin: 0;border: 1px solid #21669e;height:auto;width: 300px;}
+.hide-desktop {font-family: 'Merriweather', serif;font-size: 1rem;margin-top: 0em;display: none}
+.keterangan {z-index:10; list-style: none; text-align: left; font-size: 1rem}
+.tribune-logo-shadow {width:20%; box-shadow: #808080}
+
+@media only screen and (max-width: 1024px) {
+  .pikto {margin: 0px 200px;box-sizing: border-box;}
+  .tooltip.active{position:static;width: auto;}
+  .hide-desktop {display: block}
+}
+
+@media only screen and (max-width: 768px) {
+  .pikto {margin: 0px 150px;box-sizing: border-box;}
+}
+
+@media only screen and (max-width: 767px) {
+  .pikto {margin: 0 auto;box-sizing: border-box;}
+  .panzoom {overflow-x: scroll};
+}
